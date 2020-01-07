@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  SimpleButton
+} from '@zizhouw/react-packaging';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <SimpleButton />
       </header>
     </div>
   );
